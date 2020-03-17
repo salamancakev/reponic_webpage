@@ -1,0 +1,77 @@
+@font-face {
+    font-family: NexaLight;
+    src: url(../Fonts/Nexa\ Light.otf);
+}
+
+@font-face {
+    font-family: NexaRegular;
+    src: url(../Fonts/Nexa\ Regular.otf);
+}
+
+@font-face {
+    font-family: NexaBold;
+    src: url(../Fonts/Nexa\ Bold.otf);
+}
+
+body {
+    font-family: NexaRegular;
+    color: #fff;
+}
+#main-nav{
+    background-color: #0066ff;
+}
+
+#main-nav .navbar-nav {
+    font-family: NexaLight;
+}
+
+#home-section {
+    background: url(../img/Header/Backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    padding-top: 200px;
+}
+
+
+#joinBtn {
+ border-radius: 24px !important; 
+ font-size: 1.5rem;
+}
+
+#joinBtn:hover {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+#how-section-header {
+    background: url(../img/Body/Backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+#how-section-content {
+    background: url(../img/Body\ 2/Backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+#about-section {
+    background: url(../img/Body\ 4/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+#contact-section {
+    background: url(../img/Be\ in\ touch/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+#main-footer {
+    background: #1c2647;
+}
